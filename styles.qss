@@ -1,0 +1,20 @@
+/* styles.qss */
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+QComboBox, QLineEdit, QTableWidget {
+    font-size: 14px;
+    padding: 5px;
+}
+
+QTableWidget::item {
+    padding: 10px;
+}
